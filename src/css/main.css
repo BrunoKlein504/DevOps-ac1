@@ -1,0 +1,18 @@
+main{
+    flex: 1;
+    display: flex;
+    align-items: center;
+
+    width: 100%;
+    max-width: 1440px;
+}
+
+.main_info{
+width: 100%;
+max-width: 570px;
+}
+
+.main_info p {
+    font-size: 18px;
+    margin: 20px 0 28px;
+}
