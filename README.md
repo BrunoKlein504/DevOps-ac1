@@ -21,3 +21,5 @@ mas também pelo amor pelo cinema e pelo poder que a arte tinha de tocar suas al
 Eles sabiam que, enquanto continuassem a compartilhar sua paixão pelo cinema, o espírito de Ryan Gosling viveria através deles, enchendo suas vidas com magia cinematográfica.
 
 Literalmente eu.
+
+[Site-Exemplo]("index.ryangosling.html")
