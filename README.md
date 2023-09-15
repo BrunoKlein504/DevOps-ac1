@@ -2,7 +2,7 @@
 
 <h1 align=center>Oração do Deus Ryan Gosling</h1>
 <a href="https://pt.wikipedia.org/wiki/Ryan_Gosling">
-   <img src="https://wallpapers.com/images/hd/muscular-ryan-gosling-8puwfrfbanv6mdng.jpg" alt="Ryan" style="border-radius: 30px">
+   <img src="https://wallpapers.com/images/hd/muscular-ryan-gosling-8puwfrfbanv6mdng.jpg" alt="Ryan" width="1250" style="border-radius: 30px">
 </a>
 
    <p>Há muitos anos, em uma pequena cidade à beira-mar, havia um grupo de pessoas que se reuniam secretamente todas as noites de lua cheia para um culto bastante peculiar: o Culto do Ryan Gosling. Era umaadoração secreta a um dos atores mais amados do cinema, e elesconsideravam Ryan Gosling como uma espécie de deus cinematográfico.</p>
