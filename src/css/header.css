@@ -21,7 +21,7 @@ header img {
 }
 
 .navigation_link {
-    font-size: 14px;
+    font-size: 20px;
     font-weight: 300;
     letter-spacing: 2px;
     text-transform: uppercase;
@@ -29,6 +29,11 @@ header img {
 }
 
 .navigation_link:hover{
+    color:var(--red);
+}
+
+.navigation_on{
+    font-size: 20px;
     color:var(--red);
 }
 

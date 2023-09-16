@@ -18,6 +18,7 @@
   body, button, a {
     color: var(--text);
     font: 400 1rem "Mukta", sans-serif;
+    text-shadow: 2px 2px rgb(0, 0, 0)
   }
   
   a {

@@ -1,0 +1,111 @@
+@import url(background.css);
+@import url(main.css);
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+  
+  :root {
+    --text: #EDF1F7;
+    --red: #C51212;
+    --blue: #0041C2;
+    --green: #14B02D;
+    --yellow: #ffc12b;
+  }
+  
+  html{
+    overflow-y:hidden;
+    overflow-x:hidden;
+  }
+  body, button, a {
+    color: var(--text);
+    font: 400 1rem "Mukta", sans-serif;
+  }
+  
+  a {
+    text-decoration: none;
+  }
+  
+  button:hover {
+    cursor: pointer;
+  }
+
+  #app {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    width: 100%;
+    height: 100vh;
+}
+
+.header {
+    margin-top: 50px;
+    font-size: 70px;
+    text-shadow: 2px 4px rgb(0, 0, 0);
+
+}
+
+.body {
+    margin-top: 30px;
+    margin-left: 200px;
+    margin-right: 200px;
+    text-align: center;
+    font-size: 40px;
+    text-shadow: 2px 4px rgb(0, 0, 0);
+
+}
+.navigation{
+    display: flex;
+    align-items: center;
+    column-gap: 48px;
+    list-style: none;
+}
+
+.navigation_link {
+    font-size: 30px;
+    font-weight: 500;
+    letter-spacing: 10px;
+    text-transform: uppercase;
+    position: relative;
+}
+
+header{
+    display: flex;
+    align-items: center;
+    column-gap: 64px;
+
+    
+    padding-top: 24px;
+}
+
+header img {
+    width: 200px;
+    height: auto;
+    border-radius: 50%;
+}
+
+header img:hover {
+    border: 8px solid black;
+}
+
+.navigation_link::after{
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -2px;
+
+    width: 60%;
+    height: 1px;
+    background:var(--red);
+    transform: scaleX(0);
+    transform-origin: right;
+    transition: transform 0.4s;
+    overflow: hidden;
+}
+
+.navigation_link:hover::after{
+    transform:scaleX(1) ;
+    transform-origin: left;
+}
