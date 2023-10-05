@@ -5,7 +5,7 @@ header {
   padding-top: 24px;
 }
 
-header, img {
+header img {
   width: 70px;
   height: auto;
   border-radius: 50px;
